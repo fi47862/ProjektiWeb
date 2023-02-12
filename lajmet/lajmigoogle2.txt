@@ -1,0 +1,7 @@
+Nvidia announced in September that it planned to acquire chip design licenser Arm at the big-ticket price of $40 billion in cash and stock. 
+Major tech companies reportedly aren't happy about the deal and want it stopped. Google, Microsoft and Qualcomm asked antitrust regulators to squash Nvidia's acquisition, 
+according to a Bloomberg report on Friday. The companies reportedly raised concerns that Nvidia's purchase of Arm could limit their access to its designs -- which are the basis 
+for chips inside many of the world's mobile phones -- or force them to pay more Nvidia says it wants to help Arm grow and expand into more markets. "As we proceed through the review 
+process, we're confident that both regulators and customers will see the benefits of our plan to continue Arm's open licensing model and ensure a transparent, 
+collaborative relationship with Arm's licensees," an Nvidia spokesperson said via email Friday. Google and Microsoft declined to comment. Qualcomm didn't immediately respond 
+to a request for comment.

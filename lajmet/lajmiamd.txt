@@ -1,0 +1,7 @@
+A couple of weeks back, we were able to show you AMD’s Radeon RX 6800 and Radeon RX 6800 XT in action, across an array of games and applications, 
+in two different systems, with and without Smart Access Memory enabled. In that piece, we came to the conclusion that AMD’s latest high-end gaming 
+GPUs are worthy adversaries for their NVIDIA GeForce RTX 30 series counterparts – the GeForce RTX 3070 and 3080. Today, however, we get to move all the way up the 
+stack and show you Big Navi’s, Big Daddy, the Radeon RX 6900 XT, which AMD claims can go head-to-head with NVIDIA’s powerful GeForce RTX 3090. 
+If you recall, the Radeon RX 6900 has more compute units than the Radeon RX 6800 XT, more texturing performance, and a special binned GPU AMD called “the best of best” 
+to ensure maximum efficiency and higher sustained clocks. You wouldn’t know it upon first inspection though, because the Radeon RX 6900 XT looks exactly like the Radeon RX 6800 XT, 
+but underneath its familiar exterior, the 6900 XT features a fully-enabled Navi 21 GPU

@@ -1,0 +1,1062 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+ max-width: 100%; height: auto;
+}
+.header{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	display: block;
+	background-color: #053964;
+	/*border-color:white;
+	border-bottom-style: solid;*/
+}
+@media screen and (max-width: 739px) {
+    div.inner-header{
+    font-size: 11px;
+  }
+}
+
+/*@media screen and (max-device-width: 739){
+	.header{
+	width: 100%;
+	height: 80px auto;
+	position: fixed;
+	display: block;
+	background-color: #053964;
+	text-align: center;
+		
+	}
+}*/
+.inner-header{
+	width: 1600px;
+	height: 100%;
+	display:block;
+	margin: 0 auto;
+}
+.logo-container{
+	height: 100%;
+	margin: 20px;
+	display: table;
+	float: left;
+}
+.logo-container h1{
+	color: white;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 170;
+}
+.logo-container h1 span{
+	/*font-weight: 250;*/
+}
+.navigation{
+	float: right;
+	height: 100%;
+}
+.navigation a{
+	height: 100%;
+	display: table; 
+	float: left;
+	padding: 0px 20px;
+
+}
+
+@media screen and (max-width: 739px) {
+  .navigation a {
+	  padding: 0px 8px;
+  }
+  }
+
+.navigation a:last-child{
+	padding-right: 0;
+}
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+@media screen and (max-width: 739px) {
+  div.logo-container a h1{
+	font-size: 14px;
+	padding: 12px 0px;
+  }
+}
+@media screen and (max-width: 483px) {
+  div.logo-container a h1{
+	font-size: 9px;
+	padding: 15px 0px;
+  }
+ }
+
+@media screen and (max-width: 737px) {
+	.navigation a li{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 483px) {
+	.navigation a li{
+		font-size: 10px;
+	}
+}
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	/*background-color:#a6b1ba;*/
+	background-color: #053964;
+}
+.perLogo{
+	height: 600px;
+	width: 700px;
+	margin: 0px auto 0 auto;
+	text-align: center;
+}
+@media screen and (max-width: 500px) {
+	div.perLogo img{
+	padding: 100px 0px;
+	}
+}
+
+.ngjyra{
+	width: 100%;
+	height: 620px;
+	background-color: white;
+}
+body h1{
+	margin: 35px;
+	font-family: sans-serif;
+	color: white;
+	/*text-align: center;*/
+}
+#perH1{
+	margin: 35px 753px 50px;
+}
+.BoxP{
+	margin: 15px auto; 
+	/*border-radius: 15px;*/
+}
+.img{
+	opacity: 0.3;
+	height: 380px;
+	width: 630px;
+	border-style: solid;
+	border-color: white;
+}
+
+@media screen and (max-width: 646px) {
+	.img{
+		height: 225px;
+		width: 445px;
+	}
+}
+
+@media screen and (max-width:451px) {
+	.img{
+		height: 165px;
+		width: 360px;
+	}
+}
+
+.PerTekst{
+	margin: 10px auto 50px;
+	color: white;
+	font-size: 29px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+/*@media only screen and (max-device: 414px){
+	.PerTekst{
+	margin: 10px auto 50px;
+	color: white;
+	font-size:13px;
+	font-family: sans-serif;
+	text-align: center;
+	}
+}*/
+#krejtCenter{
+	text-align: center;
+}
+
+@media only screen and (max-width:555px){
+	#krejtCenter p{
+	text-align: center;
+	font-size: 17px;
+	}
+	#krejtCenter h1{
+		font-size: 20px;
+	}
+}
+
+#krejtCenter2{
+	text-align: center;
+}
+#perfooter{
+	margin: 130px 0px 0px 0px;
+	border-top-style: solid;
+	border-color: white;
+	background-color: white;
+	background-color:#3b5164;
+	width: 100%;
+	height: 250px;
+	text-align:center;
+	font-family:sans-serif;
+	color:#053964;
+	color: white;
+	background-color: #053964;
+	opacity: 0.8;
+}
+#perfooter2{
+	margin: 130px 0px 0px 0px;
+	border-top-style: solid;
+	border-color: white;
+	background-color: white;
+	background-color:#3b5164;
+	width: 100%;
+	height: 250px;
+	text-align:center;
+	font-family:sans-serif;
+	color:#053964;
+	color: white;
+	background-color: #053964;
+	opacity: 0.8;
+}
+#perNumerFoto{
+margin: -9px;
+}
+#peremail{
+	margin: 17px;
+	font-size: 23px;
+}
+.perH2{
+	padding: 23px;
+	text-align: center;
+}
+.permadhesi{
+	font-size: 23px;
+}
+#Uni{
+/*margin: 30px;*/
+}
+.distance{
+ margin-top: 20px;
+}
+#shtyje{
+margin-left: 10px;
+}
+.per3logot{
+	align: center;
+	margin: 10px;
+}
+.spanlogo{
+	margin-left: 12px;
+
+}
+#fbposht{
+	margin: -4px;
+}
+#ytposht{
+	margin: -8px;
+	margin-left: 5px;
+}
+#copyright{
+	margin: -7px;
+	margin-top: 18px;
+	margin-right: 10px;
+}
+#teksti{
+	margin-top: 10px;
+}
+.copyrighttotal{
+	margin: 20px;
+}
+
+
+
+/*STYLE-IMI PER NDERFAQEN E DYTE RRETH UNIVERSITETIT*/
+
+#RrethUniTekst{
+	margin: 80px auto;
+	width: 1300px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 23px;
+	color: white;
+ 	max-width: 100%; height: auto;
+}
+
+@media screen and (max-width: 555px){
+	#RrethUniTekst{
+	
+	font-size: 17px;
+	}
+}
+#fillimiRrethUni{
+	padding: 100px;
+	height: 140px;
+	margin: 0px auto;
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+	/*border-style: solid;
+	border-color:black;*/
+}
+#fillimiHulumtimet{
+	padding: 100px;
+	height: 140px;
+	margin: 0px auto;
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+	/*border-style: solid;
+	border-color:black;*/
+}
+#boxRrethUni{
+	margin: auto;
+	text-align: center;
+	height: 40px;
+	width: 540px;
+	/*border-bottom-style: solid;*/
+	color: black;
+	border-bottom-color: grey;
+	opacity: 0.5;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 660px) {
+	#boxRrethUni{
+	font-size: 19px;
+	}
+}
+
+
+		
+
+#boxHulumtimet{
+	margin: auto;
+	text-align: center;
+	height: 40px;
+	width: 540px;
+	/*border-bottom-style: solid;*/
+	color: black;
+	border-bottom-color: grey;
+	opacity: 0.5;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 660px){
+	#boxHulumtimet{
+	font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 660px){
+	#boxHulumtimet{
+	font-size: 13px;
+	}
+}
+
+#boxHapsira{
+	padding: 10px;
+	text-align: center;
+	font-size: 40px;
+	opacity: 0.7;
+	color: black;
+}
+@media screen and (max-width: 660px){
+	#boxHapsira{
+		font-size:20px;
+	}
+}
+
+#boxHapsira2{
+	padding: 20px;
+	text-align: center;
+	font-size: 40px;
+	opacity: 0.7;
+	color: black;
+}
+
+
+@media screen and (max-width: 660px) {
+	#boxHapsira2{
+	font-size: 20px;
+	}
+}
+@media screen and (max-width: 374px) {
+	#boxHapsira2{
+	font-size: 13px;
+	}
+}
+
+#ngjyrabardh{
+	background-color: white;
+	color: black;
+	border-bottom: solid;
+	/*border-bottom-color: grey;*/
+	
+}
+
+#ngjyrabardh2{
+	background-color: white;
+	color: black;
+	border-bottom: solid;
+	
+}
+#gjeresiaTekHapsira{
+	width: 100%;
+	margin: 70px 0px 0px 0px;
+	border-top-style: solid;
+	border-top-color: grey;
+	opacity: 0.7;
+	padding: 200px 0px auto 0px;
+}
+#gjeresiaTekHapsira2{
+	width: 100%;
+	margin: 130px 0px 0px 0px;
+	/*border-top-style: solid;
+	border-top-color: grey;*/
+	opacity: 0.7;
+	padding: 200px 0px auto 0px;
+}
+
+@media screen and (max-width: 739px) {
+	#gjeresiaTekHapsira2{
+	font-size: 13px;
+	}
+}
+
+/*#borderFoto{
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}*/
+#perstatistika{
+	margin: auto;
+	margin-top: 100px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: white;
+	border-bottom-color: white;
+	opacity: 0.6;
+	color: white;
+	max-width: 1300px;
+	text-align: left;
+	font-family: sans-serif;
+}
+#Lokacionidistance{
+	/*text-align: right;*/
+	margin-left: 950px ;
+	text-align: right;
+
+}
+#vleratdistance{
+	margin-left: 937px;
+	text-align: right;
+}
+.distancaNeKontent{
+	margin: 14px auto;
+}
+.tekstnemes{
+	text-align: center;
+}
+#vitidistance{
+ margin-left: 10px;
+}
+#jasht{
+	text-align: left;
+	border-style: solid;
+	border-color: white;
+}
+#oborr{
+	text-align: right;
+	border-style: solid;
+	border-color: white;
+}
+#dyfotot{
+	margin: 100px auto;
+	width: 100%;
+	opacity: 0.8;
+	text-align: center;
+}
+/*@media screen and (max-width: 739px) {
+	#dyfotot img{
+		height="400px";
+		width="560";
+	}
+}*/
+
+#drejtimet{
+	width: 700px;
+	margin: 50px auto;
+	border-style: solid;
+	border-color: white;
+	background-color: #27313a;
+	opacity: 0.8;
+
+
+}
+#drejtimeteofruara{
+	margin: 40px auto;
+	text-align: center;
+	opacity: 0.8;
+}
+
+@media screen and (max-width: 739px) {
+	#drejtimeteofruara{
+	font-size:19px;
+	}
+}
+
+#elemlist{
+	font-size: 25px;
+	font-family: sans-serif;
+	text-align: center;
+	margin: 25px auto;
+	padding: 10px;
+	color: white;
+	opacity: 0.8;
+}
+
+@media screen and (max-width: 739px) {
+	#elemlist{
+	font-size: 17px;
+	}
+}
+.form{
+	position: relative;
+	z-index: 1;
+	background: #ffffff;
+	max-width: 360px;
+	margin: 0 auto;
+	padding: 45px;
+	text-align: center;
+}
+.form input{
+	font-family: sans-serif;
+	outline: 1;
+	background: #f2f2f2;
+	width:100%;
+	border: 0;
+	margin 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+.form button {
+
+	font-family:sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #4cad50;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 15px;
+	cursor: pointer;
+}
+.form button: hover,.form button: active{
+	background: #43a047;
+}
+.form .message{
+	margin: 15px 0 0;
+	color: aliceblue;
+	font-size: 12px;
+}
+.form .message a{
+	color: #4caf50;
+	text-decoration: none;
+}
+.form .register-form{
+	display: none;
+}
+#formatimi{
+	border-style: solid;
+	border-color: white;
+	width: 400px;
+	height: 500px;
+	margin: 50px auto;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 15px;
+	background-color: #27313a;
+}
+
+@media screen and (max-width: 421px) {
+	#formatimi{
+		width: 350px;
+		height: 470px;
+	}
+}
+
+#pjesasiper{
+	width: 100%;
+	height: 80px;
+	
+}
+.shtyrjeteinputit{
+	margin: 10px;
+	text-align: center;
+}
+#innerform{
+	margin-top: 80px;
+	text-align: center;
+	
+}
+#LOGINID{
+	margin: 20px auto;
+
+	font-family:sans-serif;
+	color: white;
+	font-size: 17px;
+	/*border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: white;
+	border-bottom-color: white;
+	opacity: 0.8;*/
+
+}
+#colorlogin{
+	margin: 20px auto;
+	font-family:sans-serif;
+	color: red;
+	font-size: 20px;
+	border-style: solid;
+	border-color: white;
+	margin-bottom: 20px;
+	padding: 6px;
+}
+#pshtyje{
+	margin: 20px auto;
+}
+
+
+#formatimi2{
+	border-style: solid;
+	border-color: white;
+	width: 400px;
+	height: 330px;
+	margin: 50px auto;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 15px;
+	background-color: #27313a;
+}
+@media screen and (max-width: 415px) {
+	#formatimi2{
+	height: 290px;
+	width: 330px;
+	}
+}
+#pjesasiper2{
+	width: 100%;
+	height: 80px;
+	
+}
+.shtyrjeteinputit2{
+	margin: 20px;
+	text-align: center;
+	height: 20px;
+
+
+}
+#innerform2{
+	margin-top: 80px;
+	text-align: center;
+	
+}
+#LOGINID2{
+	margin: 20px auto;
+
+	font-family:sans-serif;
+	color: white;
+	font-size: 17px;
+	/*border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: white;
+	border-bottom-color: white;
+	opacity: 0.8;*/
+
+}
+#colorlogin2{
+	margin: 20px auto;
+	font-family:sans-serif;
+	color: red;
+	font-size: 20px;
+	border-style: solid;
+	border-color: white;
+	margin-bottom: 20px;
+	padding: 6px;
+}
+#pshtyje2{
+	margin: 20px auto;
+}
+#loginshtyje{
+	margin-top: 160px;
+}
+
+#Hulumtimetshtyrje{
+
+	/*margin-bottom:300px auto;*/
+}
+#nalt{
+	/*4350 sepse nuk mundesha me semantiken qe kam perdorur ta largoj ne menyre tjeter*/
+ 	height: 4350px;
+	width: 100%;
+
+}
+/*#hulcenter{
+	padding: 100px;
+	border-color: white;
+	height: 90px;
+	background-color: white;
+	color:grey;
+	font-family:sans-serif;
+	text-align: center;
+}*/
+
+@media screen and (max-width: 905px) {
+	#hulcenter h2{
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width: 581px) {
+	#hulcenter h2{
+		font-size: 12px;
+	}
+}
+/*#mesodukebere{
+	margin: 20px;
+	padding: 11px;
+	border-top-style: solid;
+	border-top-color: grey;
+	font-family: sans-serif;
+	color:grey;
+	text-align: center;
+	font-size: 34px;
+}*/
+
+@media screen and (max-width: 905px) {
+	#mesodukebere p{
+		font-size: 19px;
+	}
+
+}
+
+@media screen and (max-width: 581px) {
+	#mesodukebere p{
+		font-size: 13px;
+		padding: -6px;
+		margin: -3px;
+	}
+}
+/*.hulpertekst{
+	margin: 70px auto;
+	
+	font-family: sans-serif;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+}*/
+/*#perp{
+	margin-top: 50px;
+}*/
+/*.fototneqender{
+	margin: 20px auto;
+	text-align: center;
+}
+.borderperfoto{
+	border-style: solid;
+	border-color: white;
+	opacity: 0.7;
+	/*margin: auto -70px auto -70px;
+
+}*/
+/*.pervije{
+	margin: 70px auto;
+	border-bottom-style: solid;
+	border-bottom-color: grey;
+
+}*/
+/*.huldrejtimet{
+	text-align: center;
+	margin: auto;
+	margin-bottom: 15px;
+	font-size: 33px;
+}*/
+.inputheight{
+	height: 25px;
+	width: 200px;
+}
+
+/*PER RESPONSIVITET*/
+/* Media Queries: Tablet Landscape */
+
+/*@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}*/
+
+/* Media Queries: Tabled Portrait */
+/*@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}*/
+
+/*@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}*/
+
+/*@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}*/
+
+/*@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+} 
+@-ms-viewport {
+  width: device-width ;
+} */
+
+
+
+/*PERMIRSIMI I FAQES HULUMTIMET*/
+
+#shfaqemir{
+	padding: 100px;
+	color: white;
+	font-family:sans-serif;
+	text-align: center;
+	max-width: 100%;
+
+}
+.fotoheightwidth{
+	height: 501px;
+	width: 746px;
+	border-style: solid;
+	border-color: white;
+	opacity: 0.7;
+}
+
+@media screen and (max-width: 754px) {
+	.fotoheightwidth{
+		height: 360px;
+		width: 595px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.fotoheightwidth{
+		height: 230px;
+		width: 455px;
+	}
+}
+@media screen and (max-width: 460px) {
+	.fotoheightwidth{
+		height: 145px;
+		width: 350px;
+	}
+}
+.vendosjenemes{
+	text-align:center;
+}
+.rregullotekstin{
+	color: white;
+	font-size: 23px;
+	text-align: center;
+	padding: 17px;
+}
+
+@media screen and (max-width: 739px) {
+	.rregullotekstin{
+	font-size: 17px;
+	}
+
+}
+.vendosnemes{
+	text-align: center;
+	font-family: sans-serif;
+}
+#tekstidatabaze{
+	font-family: sans-serif;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+#testimpertekst{
+}
+.perimg{
+
+	border-style: solid;
+	border-color: white;
+	opacity: 0.7;
+	
+}
+@media screen and (max-width: 1021px) {
+	.perimg{
+		width:700px;
+		height:500px; 
+	}
+
+}
+@media screen and (max-width: 725px) {
+	.perimg{
+		width:600px;
+		height:400px; 
+	}
+@media screen and (max-width: 725px) {
+	#tekstidatabaze{
+		font-size:20px;
+	}
+
+
+}
+@media screen and (max-width: 625px) {
+	.perimg{
+		width:500px;
+		height:300px; 
+	}
+
+}
+@media screen and (max-width: 513px) {
+	.perimg{
+		width:390px;
+		height:190px; 
+	}
+
+}
+@media screen and (max-width: 513px){
+	#tekstidatabaze{
+		font-size:15px;
+	}
+
+}
+@media screen and (max-width: 402px) {
+	.perimg{
+		width:350px;
+		height:150px; 
+	}
+
+}
+
+/*PER SLIDER PERFUNDIMTARE
+
+h1 {
+  text-align: center;
+  color: #eee;
+  font-family: "Roboto Thin", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.wrapper {
+	margin: 0px auto 0px auto;
+	border-style: solid;
+	border-color: white;
+	opacity: 0.7;
+  width: 680px;
+  overflow: hidden;
+}
+
+.slides-container {
+  height: 500px;
+  transition: 900ms cubic-bezier(0.48, 0.15, 0.18, 1);
+  position: relative;
+  align-content: center;
+}
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  align-content: center;
+}
+
+.slide-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.next-btn,
+.prev-btn {
+  background: #eee;
+  padding: 16px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.next-btn:hover,
+.prev-btn:hover {
+  background: #48f9ff;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
+
+.navigation-dots {
+  display: flex;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.single-dot {
+  background: #333;
+  height: 16px;
+  width: 16px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.single-dot.active {
+  background: #eee;
+  align-content: center;
+}
+.sizefoto{
+	width: 680px;
+	height: 450px;
+	align-content: center;
+}
+
+.perpermirsim{
+	 margin: 0;
+	 padding: 0;
+	 box-sizing: border-box;
+}*/

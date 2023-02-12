@@ -1,0 +1,403 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: #222;
+}
+
+.wrapper {
+	margin: 0px auto 0px auto;
+	border-style: solid;
+	border-color: white;
+	opacity: 0.4;
+  width: 630px;
+  height: 380px;
+  align-content: center;
+  overflow: hidden;
+}
+
+.slides-container {
+  height: 100%;
+  width: 100%;
+  transition: 900ms cubic-bezier(0.48, 0.15, 0.18, 1);
+  position: relative;
+  align-content: center;
+}
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  align-content: center;
+}
+
+.slide-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.next-btn,
+.prev-btn {
+  background: #eee;
+  padding: 16px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.next-btn:hover,
+.prev-btn:hover {
+  background: #48f9ff;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
+
+
+.navigation-dots {
+  display: flex;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.single-dot {
+  background: #333;
+  height: 16px;
+  width: 16px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.single-dot.active {
+  background: #eee;
+  align-content: center;
+}
+.sizefoto{
+	height: 380px;
+	width: 630px;
+	align-content: center;
+}
+.krejtcenter{
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+
+}
+.ngjyra{
+	width: 100%;
+	height: 620px;
+	background-color: white;
+}
+.perLogo{
+	height: 600px;
+	width: 700px;
+	margin: 0px auto 0 auto;
+	text-align: center;
+}
+.header{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	display: block;
+	background-color: #053964;
+	/*border-color:white;*/
+	/*border-bottom-style: solid;*/
+}
+.inner-header{
+	width: 1600px;
+	height: 100%;
+	display:block;
+	margin: 0 auto;
+}
+.navigation{
+	float: right;
+	height: 100%;
+}
+
+.navigation a{
+	height: 100%;
+	display: table; 
+	float: left;
+	padding: 0px 20px;
+
+}
+.logo-container{
+	height: 100%;
+	margin: 20px;
+	display: table;
+	float: left;
+}
+.logo-container h1{
+	color: white;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 170;
+}
+*{
+	margin: 0;
+	padding: 0;;
+	list-style: none;
+	text-decoration: none;
+	font-family: sans-serif;
+	max-width: 100%;
+	height: auto;
+}
+.navigation a:last-child{
+	padding-right: 0;
+}
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	/*background-color:#a6b1ba;*/
+	background-color: #053964;
+}
+body h1{
+	margin: 35px;
+	font-family: sans-serif;
+	color: white;
+	/*text-align: center;*/
+}
+#krejtCenter{
+	text-align: center;
+}
+.BoxP{
+	margin: 15px auto; 
+	/*border-radius: 15px;*/
+}
+
+.img{
+	opacity: 0.4;
+	height: 380px;
+	width: 630px;
+	border-style: solid;
+	border-color: white;
+}
+
+#krejtCenter2{
+	text-align: center;
+}
+#perfooter{
+	margin: 130px 0px 0px 0px;
+	border-top-style: solid;
+	border-color: white;
+	background-color: white;
+	background-color:#3b5164;
+	width: 100%;
+	height: 250px;
+	text-align:center;
+	font-family:sans-serif;
+	color:#053964;
+	color: white;
+	background-color: #053964;
+	opacity: 0.8;
+}
+
+.perH2{
+	padding: 23px;
+	text-align: center;
+}
+.permadhesi{
+	font-size: 23px;
+}
+.distance{
+ margin-top: 20px;
+}
+#perNumerFoto{
+margin: -9px;
+}
+
+#fbposht{
+	margin: -4px;
+}
+#ytposht{
+	margin: -8px;
+	margin-left: 5px;
+}
+#copyright{
+	margin: -7px;
+	margin-top: 18px;
+	margin-right: 10px;
+}
+
+.spanlogo{
+	margin-left: 12px;
+
+}
+.copyrighttotal{
+	margin: 20px;
+}
+.logo-container h1 span{
+	/*font-weight: 250;*/
+}
+#shtyje{
+margin-left: 10px;
+}
+
+.PerTekst{
+	margin: 10px auto 50px;
+	color: white;
+	font-size: 29px;
+	font-family: sans-serif;
+	text-align: center;
+}
+.PerLajmet{
+	margin: 25px auto 50px;
+	color: white;
+	font-size: 31px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+/*RESPONSIVITET MAIN PAGE*/
+@media screen and (max-width: 739px) {
+    div.inner-header{
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 739px) {
+  .navigation a {
+	  padding: 0px 8px;
+  }
+  }
+
+@media screen and (max-width: 739px) {
+  div.logo-container a h1{
+	font-size: 14px;
+	padding: 12px 0px;
+  }
+}
+@media screen and (max-width: 483px) {
+  div.logo-container a h1{
+	font-size: 9px;
+	padding: 15px 0px;
+  }
+ }
+
+@media screen and (max-width: 737px) {
+	.navigation a li{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 483px) {
+	.navigation a li{
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 483px) {
+	.navigation a li{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 646px) {
+	.img{
+		height: 225px;
+		width: 445px;
+	}
+}
+
+@media screen and (max-width:451px) {
+	.img{
+		height: 165px;
+		width: 360px;
+	}
+}
+@media only screen and (max-width:555px){
+	#krejtCenter p{
+	text-align: center;
+	font-size: 17px;
+	}
+	#krejtCenter h1{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 646px) {
+	.wrapper{
+		width: 445px;
+		height:225px;
+	}
+}
+@media screen and (max-width: 646px) {
+	.sizefoto{
+		width: 445px;
+		height:225px;
+	}
+}
+
+/*@media screen and (max-width: 646px) {
+	.slides-container{
+		height: 225px;
+	}
+}*/
+
+@media screen and (max-width: 451px) {
+	.sizefoto{
+		width: 360px;
+		height:165px;
+	}
+}
+/*@media screen and (max-width:451px) {
+	.slides-container{
+		height: 165px;
+	}
+}*/
+@media screen and (max-width: 739px) {
+	.PerLajmet{
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 484px) {
+	.PerLajmet{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 415px) {
+	.wrapper{
+
+		height: 165px;
+		width: 360px;
+	}
+}
+@media screen and (max-width: 555px) {
+	.PerTekst{
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width: 542px) {
+	.perLogo{
+		padding: 80px 0px 0px 0px;
+	}
+}
+
